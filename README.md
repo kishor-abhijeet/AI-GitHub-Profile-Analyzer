@@ -8,39 +8,9 @@ A production-ready MERN dashboard that analyzes public GitHub profiles with prof
 - Backend: Node.js, Express.js
 - API: GitHub REST API
 
-## Quick Start
+some screentshots:
+<img width="1913" height="1029" alt="image" src="https://github.com/user-attachments/assets/26a5ed34-bd57-43e1-a64f-7ce60c84dc3b" />
+<img width="1911" height="1021" alt="image" src="https://github.com/user-attachments/assets/9683a414-b408-4403-a0c1-905451b41f1f" />
 
-```bash
-npm run install:all
-npm run dev
-```
 
-Frontend: `http://localhost:5173`
 
-Backend: `http://localhost:5000`
-
-## Environment
-
-Create `server/.env` from `server/.env.example`.
-
-`GITHUB_TOKEN` is optional, but recommended to increase GitHub API rate limits.
-
-## API
-
-```http
-GET /api/github/:username
-```
-
-The username can also be a GitHub profile URL encoded in the route.
-
-Response:
-
-```json
-{
-  "profile": {},
-  "stats": {},
-  "languages": [],
-  "topRepos": [],
-  "aiSummary": {}
-}
-```
