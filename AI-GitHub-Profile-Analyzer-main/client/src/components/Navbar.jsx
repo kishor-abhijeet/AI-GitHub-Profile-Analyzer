@@ -7,7 +7,7 @@ const Navbar = () => (
         <span className="flex h-7 w-7 items-center justify-center rounded border border-lavender/50 bg-lavender/10 text-lavender">
           <Github size={16} />
         </span>
-        AI GitHub Analyzer
+        AI GitHub Profile Analyzer
       </a>
 
       <div className="hidden items-center gap-8 text-sm font-semibold text-slate-400 md:flex">
