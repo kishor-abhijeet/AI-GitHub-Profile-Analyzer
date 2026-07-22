@@ -7,7 +7,7 @@ const Footer = () => (
         <Github size={18} className="text-lavender" />
         AI GitHub Analyzer
       </div>
-      <p className="font-mono text-xs font-bold">Built with React, Node.js, GitHub API, and AI-style analytics</p>
+      <p className="font-mono text-lg font-bold">Created by Abhijeet kishor</p>
       <div className="flex gap-6 font-semibold">
         <a href="#dashboard" className="hover:text-slate-200">
           Dashboard
