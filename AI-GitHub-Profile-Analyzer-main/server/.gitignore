@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+.env
+node_modules
+dist
+build
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+=======
+node_modules
+dist
+build
+.env
+.env.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> 5bdc4ec261515a81d603f3cdfffc13918b348faa

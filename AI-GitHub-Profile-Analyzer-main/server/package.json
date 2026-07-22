@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "ai-github-profile-analyzer-server",
   "version": "1.0.0",
   "type": "module",
@@ -18,5 +19,21 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
+=======
+  "name": "ai-github-profile-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN-based AI GitHub Profile Analyzer dashboard.",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "npm run dev --prefix server",
+    "client:dev": "npm run dev --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+>>>>>>> 5bdc4ec261515a81d603f3cdfffc13918b348faa
   }
 }
